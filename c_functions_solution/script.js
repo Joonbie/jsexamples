@@ -33,7 +33,7 @@ Hint:
 */
 function validateInputs (choice, name="") {
   if(choice == 0 || name.length == 0) //replaced (,) with || (or operator)
-    return;
+      return;
   
     return true;
   
