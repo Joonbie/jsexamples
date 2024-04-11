@@ -18,7 +18,7 @@ function ftnSalutation() {
 */
 const ftnGreeting = (salutation, user) => {
   //  implement your statement(s) here
-  const msg = "Hi, " + salutation + " " + user + ".";
+  const msg = "Hi, " + salutation + " " + user + " We recieved your submission.";
   return msg;
 }
 
@@ -33,7 +33,7 @@ Hint:
 */
 function validateInputs (choice, name="") {
   if(choice == 0 || name.length == 0) //replaced (,) with || (or operator)
-      return;
+    return;
   
     return true;
   
